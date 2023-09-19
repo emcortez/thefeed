@@ -48,6 +48,8 @@ section:hover{
     -ms-transform: scale(1.10); /* IE 9 */
     -webkit-transform: scale(1.10); /* Safari 3-8 */
     transform: scale(1.10);
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    background-color: palevioletred;
 }
 
 footer {
