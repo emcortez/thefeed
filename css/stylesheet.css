@@ -13,7 +13,7 @@ h2 {
 }
 
 header {
-    width: 65%;
+    width: 45%;
     position: fixed;
     top: 15px;
     left: 25px;
@@ -22,7 +22,7 @@ header {
 
 nav {
     background-color: pink;
-    width: 65%;
+    width: 45%;
     position: fixed;
     top: 300px;
     left: 25px;
@@ -63,7 +63,7 @@ section:hover{
 
 footer {
     background-color: bisque;
-    width: 300px;
+    width: 25%;
     position: fixed;
     bottom: 25px;
     left: 25px;
