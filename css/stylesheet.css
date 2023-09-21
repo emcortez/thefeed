@@ -15,6 +15,7 @@ h2 {
 header {
     width: 300px;
     position: fixed;
+    top: 1%;
     left: 25px;
     text-align: center;
 }
@@ -27,7 +28,7 @@ nav {
     background-color: pink;
     width: 300px;
     position: fixed;
-    top: 250px;
+    top: 22%;
     left: 25px;
     text-align: center;
     border-radius: 20px;
