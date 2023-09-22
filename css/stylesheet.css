@@ -1,31 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+    font-family: 'Magic Retro';
+    src: url(fonts/Magic\ Retro.ttf);
+}
 
 body{
     background-color: #fff3f5;
     max-width: 1200px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-
 }
 
 h2 {
     text-align: center;
+    font-family: 'Magic Retro';
+    font-size: xx-large;
+    color: coral;
 }
 
 header {
     width: 300px;
     position: fixed;
-    top: 1%;
-    left: 25px;
+    top: 25px;
+    left: 30px;
     text-align: center;
 }
 
 header h6{
     text-align: center;
+    font-size: xx-large;
 }
 
 nav {
-    background-color: pink;
+    background-color: #FFBAAC;
     width: 300px;
     position: fixed;
     top: 22%;
@@ -34,15 +41,31 @@ nav {
     border-radius: 20px;
 }
 
+nav h3{
+    font-family: 'Magic Retro';
+}
+
 main {
-    width: 85%;
+    background-color: #8C0F31;
+    width: 98%;
+    margin-top: 50px;
     margin-left: 250px;
-    top: 50px;
+    margin-bottom: 100px;
+    bottom: 10px;
+    top: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     position: relative;
+    border-radius: 20px;
+}
+
+section h1 {
+    font-family: "Magic Retro";
+    font-size: xx-large;
+    text-align: center;
+    padding-bottom: -5px
 }
 
 section {
@@ -59,11 +82,18 @@ section {
 section img {
     width: 400px; 
     padding: 5px;
+    border-radius: 20px;
 }
 
 section video {
     width: 400px;
     padding: 5px;
+    border-radius: 20px;
+}
+
+.topcaption {
+    padding-top: 10px;
+    margin-top: 5px;
 }
 
 a {
@@ -98,16 +128,6 @@ section:hover{
     font-size: larger;
 }
 
-footer {
-    background-color: bisque;
-    width: 300px;
-    position: fixed;
-    bottom: 25px;
-    left: 25px;
-    border-radius: 20px;
-    text-align: center;
-}
-
 #splashpagegif{
     margin-top: 225px;
     text-align: center;
@@ -139,7 +159,7 @@ audio {
     position: -webkit-sticky;
     position: sticky;
     top: 90vh;
-    background-color: coral;
+    background-color: purple;
     margin-right: 5px;
     border-radius: 20px;
     font-size: x-large;
@@ -164,4 +184,24 @@ audio{
 
 h6{
     text-align: center;
+}
+
+footer {
+    background-color: bisque;
+    width: 300px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Magic Retro';
+}
+
+#button {
+    color: white;
+}
+
+.right {
+    position: relative;
+    top: 100px;
 }
